@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>login</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/loginstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- navigation bar -->
+            <div class="nav">
+                <p>Java</p>
+                <div class="links">
+                    <a class="navLinks" href="index.html">home</a>
+                    <a class="navLinks" href="index.html#about">about</a>
+                    <a class="navLinks" href="menu.html">menu</a>
+                    <a class="navLinks" href="contact.html">contact us</a>
+                    <a class="navLinks" href="login.html">login</a>
+                    <a class="navLinks" href="signup.html">sign up</a>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+            <!-- form -->
+                <div class="loginbox">
+                    <h1>login here</h1>
+                    <form>
+                        <label for="user" class="to"> username :</label>
+                        <input id="user" type="text" class="size" placeholder="enter your name"> <br><br><br>
+                        <label for="pass" class="to" > password :</label>
+
+                        <input type="password" id="pass" placeholder="enter strong password" class="size"><br><br>
+                        <input type="submit"  class="button" value="login"><br>
+                            
+                        <div class="lastLink">
+                            <a href="adminlogin.html">log in as an admin</a>
+                        </div>
+                    </form>
+                </div>
+            <footer>
+                <div>
+                    <section>
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/NaneesAdel1512"  target="_blank">
+                            <img src="./images/fwhite.png" alt="facebook">
+                        </a>
+
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/"  target="_blank">
+                            <img src="./images/twitter.png" alt="twitter">
+                        </a>
+
+                        <!-- Google -->
+                        <a href="https://www.google.com/"  target="_blank">
+                            <img src="./images/google.png" alt="google">
+                        </a>
+
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/"  target="_blank">
+                            <img src="./images/insta.png" alt="instagram">
+                        </a>
+
+                        <!-- Linkedin -->
+                        <a href="https://www.linkedin.com/"  target="_blank">
+                            <img src="./images/linkedin.png" alt="linkedin">
+                        </a>
+
+                        <!-- Github -->
+                        <a href="https://github.com/"  target="_blank">
+                            <img src="./images/github2.png" alt="github">
+                        </a>
+                    </section>
+                </div>
+            </footer>
+
+            <script>
+                function login()
+                {
+                    Desktop.getDesktop().browse(menu.html.toURI());
+
+                }
+            </script>
+    </body>
+</html>

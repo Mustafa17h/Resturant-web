@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+}
+
+
+.nav {
+    /* background-color: rgba(90, 87, 87,.8); */
+    background-color: #374a37;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    /* opacity: .8; */
+    position: absolute;
+    float: left;
+    width: calc((100% - 30px) / 1);
+    margin-left: 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 8px;
+    font-style: italic;
+}
+
+a:hover {
+    background-color:blanchedalmond;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    opacity: .9;
+    border: 0.5px solid black;
+    border-radius: 40px ;
+    -webkit-border-radius: 40px ;
+    -moz-border-radius: 40px ;
+    -ms-border-radius: 40px ;
+    -o-border-radius: 40px ;
+}
+.links{
+    text-transform: capitalize;
+    float: right;
+    padding-top: 13px;
+    
+}
+p {
+    font-family: my;
+    padding-left: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 40px;
+}
+.mySlides {
+    width: 1400px;
+    height: 577px;
+    /* overflow: scroll; */
+
+}
+.slides {
+
+    overflow: hidden;
+}
+@font-face {
+    font-family: my;
+    src: url(fonts/Letric_PERSONAL_USE_ONLY.otf);
+}
+@font-face {
+    font-family: my2;
+    src: url(fonts/Diacare.ttf);
+}
+
+/* --------------------------------Buttons---------------------------------------------- */
+
+body{
+
+    background-image:url(../images/q1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+/*---------------------- positions----------- */
+#changeBk{
+    margin-top: 300px;   
+    margin-left: 560px;
+}
+
+.removeBk{
+    margin-top: 350px;  
+    margin-left: 560px;
+}
+
+.hideNav{
+    margin-top: 550px;
+    margin-left: 270px;
+}
+
+
+#changeColor{
+    margin-top: 600px;
+    margin-left: 270px;
+}
+
+
+.changeSize{
+    margin-top: 550px;
+    margin-left: 850px;
+}
+
+
+.changeFont{
+    margin-top: 600px;   /*1001*/
+    margin-left: 850px;
+}
+
+/* -------------------------shape------------------------ */
+
+
+button {
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 100px;
+    width: 25%;
+    opacity: .8;
+    color: #777;
+    transition: all .2s;
+    position: fixed;
+
+}
+
+button:hover {
+    transform: translateY(-3px);
+   background-color: #374a37;
+}
+
+button:active {
+    transform: translateY(-1px);
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); */
+   
+}
+
+
+
+
+
+
+
+
+

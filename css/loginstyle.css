@@ -1,0 +1,198 @@
+*{
+
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(../images/backg.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+
+a:hover{
+    color:rgb(255, 217, 0);
+}
+a:link{
+
+    text-decoration: none;
+}
+
+.clear{
+
+    clear: both;
+}
+
+.nav {
+
+    background-color: black;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    opacity: .8;
+    /* position: absolute; */
+    float: left;
+    width: calc((100% - 30px) / 1);
+    margin-left: 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.navLinks{
+
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 8px;
+    font-style: italic;
+}
+
+.navLinks:hover {
+
+    background-color:blanchedalmond;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    opacity: .9;
+    border: 0.5px solid black;
+    border-radius: 40px ;
+    -webkit-border-radius: 40px ;
+    -moz-border-radius: 40px ;
+    -ms-border-radius: 40px ;
+    -o-border-radius: 40px ;
+}
+
+.links{
+
+    text-transform: capitalize;
+    float: right;
+    padding-top: 13px;
+}
+
+.nav p {
+
+    font-family: my;
+    padding-left: 15px;
+    color: white;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.loginbox{
+    width: 500px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color:rgb(orange);
+    top:55%;
+    left:49%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border: solid olive;
+    border-radius: 100px;
+    text-decoration-style: double;
+}
+
+h1 {
+
+    text-transform: capitalize;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: solid;
+    margin-bottom: 40px;
+}
+
+.size{
+    height: 30px;
+    width: 250px;
+}
+
+form{
+    text-align: center;
+    size: 40px;
+    
+}
+
+.button {
+    margin-left: 10px;
+    margin-top: 180px;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    color:black;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+
+#user
+{
+    margin-left: 15px;
+    text-decoration-style: solid;
+    text-decoration-color: royalblue;
+}
+
+#pass{ 
+
+    margin-left: 20px;
+    text-decoration-color: royalblue;
+}
+.to{
+    font-size: 20px;
+    color: orange;
+    text-transform: capitalize;
+    color: black;
+}
+
+
+.lastLink {
+
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+/* footer */
+footer{
+    width: auto;
+    height: 40px;
+    background-color: black;
+    opacity: 0.9;
+    margin-top: 650px;
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+}
+
+section{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.copyright{
+    display: block;
+}
+
+footer a{
+    text-decoration: none;
+    
+}
+
+@font-face {
+    font-family: my;
+    src: url(../fonts/Letric_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family: my2;
+    src: url(../fonts/Diacare.ttf);
+}
+

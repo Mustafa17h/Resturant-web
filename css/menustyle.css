@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+}
+
+/*--------------------------------- Navagation Bar--------------- */
+.nav {
+    /* background-color: rgba(90, 87, 87,.8); */
+    background-color: #374a37;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    opacity: .8;
+    position: absolute;
+    float: left;
+    width: calc((100% - 30px) / 1);
+    margin-left: 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 8px;
+    font-style: italic;
+}
+
+a:hover {
+    background-color:blanchedalmond;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    opacity: .9;
+    border: 0.5px solid black;
+    border-radius: 40px ;
+    -webkit-border-radius: 40px ;
+    -moz-border-radius: 40px ;
+    -ms-border-radius: 40px ;
+    -o-border-radius: 40px ;
+}
+.links{
+    text-transform: capitalize;
+    float: right;
+    padding-top: 13px;
+    
+}
+.java {
+    font-family: my;
+    padding-left: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 40px;
+}
+.mySlides {
+    width: 1400px;
+    height: 577px;
+  
+
+}
+.slides {
+
+    overflow: hidden;
+}
+
+/* ---------------------------------------Menu------------------------------------------------- */
+
+
+
+#meals{
+    background-image: url(../images/backg.webp);
+    background-size: cover;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content:space-around;
+}
+.container2{
+    margin: 0 auto;
+    /* width: 80%; */
+}
+.py{
+    padding: 120px 0;
+}
+.meal{
+    color: white;
+    text-align: center;
+    width: 25%;
+}
+.meal img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+button{
+    width: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+   
+}
+.count:hover{
+    background-color: black;
+    color: white ;  
+}
+#order{
+    width: 200px;
+    height: 70px;
+    /* margin-left: 10px ; */
+    margin-top: 50px;
+    font-size: larger;
+    font-weight: bold;
+}
+#order:hover{
+    background-color: black;
+    color: white ; 
+}
+
+
+.meal input{
+
+    width:30px; 
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+
+/* footer */
+footer{
+    width: auto;
+    height: 40px;
+    background-color: #374a37;
+    opacity: 0.8;
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+}
+
+section{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.copyright{
+    display: block;
+}
+
+footer a{
+    text-decoration: none;
+    
+}
+@font-face {
+    font-family: my;
+    src: url(../fonts/Letric_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family: my2;
+    src: url(../fonts/Diacare.ttf);
+}
